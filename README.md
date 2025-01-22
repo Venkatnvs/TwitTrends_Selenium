@@ -3,7 +3,10 @@ A web application to fetch and display real-time X (formerly twitter) trending t
 
 ---
 ## Demo Video 🎥
-[![Watch the video](https://img.youtube.com/vi/onTlC39ON0k/0.jpg)](https://www.youtube.com/watch?v=onTlC39ON0k)
+
+https://github.com/user-attachments/assets/81abef79-8e3e-4b94-a32f-af0b33bfa83f
+
+**Youtube Link**: [https://www.youtube.com/watch?v=onTlC39ON0k](https://www.youtube.com/watch?v=onTlC39ON0k)
 
 ---
 
