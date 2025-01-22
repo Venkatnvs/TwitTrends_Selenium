@@ -1,16 +1,15 @@
 # TwitTrends 🐦  
-A web application to fetch and display real-time Twitter trending topics with user authentication. Built using Flask for the backend and Tailwind CSS for a sleek, modern UI.
+A web application to fetch and display real-time X (formerly twitter) trending topics with user authentication. Built using Flask for the backend and Tailwind CSS for a sleek, modern UI.
 
 ---
-## Demo 🎥
-
-
+## Demo Video 🎥
+[![Watch the video](https://img.youtube.com/vi/onTlC39ON0k/0.jpg)](https://www.youtube.com/watch?v=onTlC39ON0k)
 
 ---
 
 ## Features 🚀  
 - User authentication with Twitter username and password.  
-- Fetch and display the top 5 trending topics on Twitter.  
+- Fetch and display the top 5 trending topics on X.  
 - Dynamic UI with a responsive design using Tailwind CSS.  
 - Real-time IP address display for query tracking.  
 
@@ -18,8 +17,7 @@ A web application to fetch and display real-time Twitter trending topics with us
 
 ## Tech Stack 💻  
 - **Frontend**: HTML, Tailwind CSS, JavaScript (ES6)  
-- **Backend**: Flask, Python  
-- **Data Fetching**: Simulated API calls (replaceable with Twitter API for production)  
+- **Backend**: Flask, Python, Selenium  
 
 ---
 
@@ -51,7 +49,7 @@ A web application to fetch and display real-time Twitter trending topics with us
 
 2. **Backend**:  
    - Receives the user credentials and validates them.  
-   - Fetches top 5 trending topics (mocked or real Twitter API integration).  
+   - Fetches top 5 trending topics.  
    - Returns a JSON response containing trends, query datetime, and IP address.  
 
 3. **Output**:  
@@ -78,7 +76,7 @@ A web application to fetch and display real-time Twitter trending topics with us
 
 ## How to Use 🖱️  
 
-1. Enter your Twitter username and password in the provided fields.  
+1. Enter your X username and password in the provided fields.  
 2. Click the **Fetch Trends** button.  
 3. Wait for the trends to load (loading animation displayed).  
 4. View the trends along with the IP address and timestamp. 
